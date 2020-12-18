@@ -1,1 +1,4 @@
-# ipl-web-app
+# IPL Web App
+The Indian Premier League (IPL) is a professional domestic T20 cricket tournament contested every year by teams representing different Indian cities. The tournament's inaugural season was held in 2008. This web app is designed to display Season-wise, Team-wise and Team Head-to-Head stats for all matches played in the IPL between 2008 and 2019.
+
+I used 2 data sets for this project. The first was matches.csv which had match-by-match data for all IPL Matches from 2008 to 2019. The second was deliveries.csv which had ball-by-ball data for all IPL Matches from 2008 to 2019. I used Pandas and Numpy for the data analysis, Plotly for data visualization and Ipywidgets for making user interactive widgets. I also used an extension called Voilà to convert my Notebooks to a web app and deployed the app using Heroku.
